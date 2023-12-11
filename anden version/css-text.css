@@ -1,0 +1,51 @@
+/* CSS med fokus på tekst */
+
+h2 {
+    font-size: 12px;
+    color: #000000;
+    font-family: arial;
+}
+
+h2:hover {
+    color: #8abfbe;
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 25px;
+    text-align: center;
+    position: static;
+}
+
+.adresse:hover {
+    color: #8abfbe;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+    h2 {
+        font-size: 18px;
+        color: #000000;
+        font-family: arial;
+    }
+
+    h1 {
+        margin-top: 25px;
+        text-align: center;
+        position: static;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    h2 {
+        font-size: 20px;
+        color: #000000;
+        font-family: arial;
+    }
+
+    h1 {
+        margin-top: 100px;
+        text-align: center;
+        position: static;
+    }
+}

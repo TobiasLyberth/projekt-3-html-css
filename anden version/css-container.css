@@ -1,0 +1,175 @@
+/* CSS med fokus på bokse og lister */
+
+/* Navigations baren når den er på iphone*/
+.header1 {
+    width: 100%;
+    height: 80px;
+    background-color: #04839c;
+    display: flex;
+    justify-content: space-between;
+    transition-property: height;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+}
+
+.logo {
+    width: fit-content;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+    align-self: center;
+}
+
+.nav {
+    width: fit-content;
+    height: 100%;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 10px;
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 0 10;
+    line-height: 80px;
+}
+
+ /* Footer når den er på iphone */
+ .footer1 {
+    position: static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 280px;
+    background-color: #04839c;
+}
+
+.footer1-flex {
+    display: flex;
+}
+
+/* Navigations baren når den er på ipad */
+@media only screen and (min-width: 600px) {
+    .header1 {
+        width: 100%;
+        height: 100px;
+        background-color: #04839c;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: fit-content;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    
+    .logo img {
+        height: 90px;
+        align-self: center;
+    }
+    
+    .nav {
+        width: fit-content;
+        height: 100%;
+    }
+    
+    .nav li {
+        list-style: none;
+        margin-right: 20px;
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        text-decoration: none;
+        padding: 0 10px;
+        line-height: 100px;
+    }
+
+     /* Footer når den er på iphone */
+ .footer1 {
+    position: static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #04839c;
+}
+
+.footer1-flex {
+    display: flex;
+}
+
+}
+
+/* Koden for alt på pc */
+@media only screen and (min-width: 960px) {
+    
+    /* Navigations baren når den er på pc */
+    .box1 {
+        width: 100%;
+        height: 100px;
+        background-color: #c2e3e5;
+        margin-top: -100px;
+        position: fixed;
+    }
+
+    .header1 {
+        width: 100%;
+        height: 0px;
+        background-color: #04839c;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        margin-top: -100px;
+    }
+    
+    .header1:hover {
+        width: 100%;
+        height: 100px;
+    }
+    
+
+    .logo {
+        width: fit-content;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    
+    .logo img {
+        height: 90px;
+        align-self: center;
+    }
+    
+    .nav {
+        width: fit-content;
+        height: 100%;
+    }
+    
+    .nav li {
+        list-style: none;
+        margin-right: 20px;
+        float: left;
+    }
+    
+    .nav li a {
+        display: block;
+        text-decoration: none;
+        padding: 0 10px;
+        line-height: 100px;
+    }
+
+}

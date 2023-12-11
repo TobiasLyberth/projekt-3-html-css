@@ -1,0 +1,353 @@
+/* CSS med fokus på det generelle udsende */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c2e3e5;
+}
+
+/* rammen for for hjemmesiden på iphone */
+.wrapper {
+    margin: 0 auto;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -25px;
+}
+
+.bundbillede {
+    width: fit-content;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bundbillede img {
+    width: 450px;        
+}
+
+/* rammen for for hjemmesiden på ipad */
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 800px;
+        background-color: rgb(255, 255, 255);
+        margin-top: -25px;
+    }
+
+    .bundbillede {
+        width: fit-content;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bundbillede img {
+        width: 800px;        
+    }
+}
+
+/* rammen for for hjemmesiden på pc */
+@media only screen and (min-width: 960px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 1000px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .bundbillede {
+        width: fit-content;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bundbillede img {
+        width: 1000px;        
+    }
+}
+
+/* rammen for footeren på iphone */
+.wrapper-footer {
+    margin: 0 auto;
+    width: auto;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.social img {
+    height: 50px;
+    align-self: center;
+    
+}
+
+.item2 {
+    list-style: none;
+    line-height: 40px;
+}
+
+.item2 li a {
+    text-decoration: none;
+}
+
+/* hover effekten for sociale medie knapper */
+
+/*facebook*/
+.facebook {
+    position: relative;
+    display: inline-block;
+}
+
+.facebook .facebook-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.facebook:hover .facebook-hover {
+    display: inline;
+}
+
+/*instagram*/
+.instagram {
+    position: relative;
+    display: inline-block;
+}
+.instagram .instagram-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.instagram:hover .instagram-hover {
+    display: inline;
+}
+
+/*linkedin*/
+.linkedin {
+    position: relative;
+    display: inline-block;
+}
+.linkedin .linkedin-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.linkedin:hover .linkedin-hover {
+    display: inline;
+}
+
+/*youtube*/
+.youtube {
+    position: relative;
+    display: inline-block;
+}
+.youtube .youtube-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.youtube:hover .youtube-hover {
+    display: inline;
+}
+
+/* rammen for footeren på ipad */
+@media only screen and (min-width: 600px) {
+    .wrapper-footer {
+        margin: 0 auto;
+        width: 800px;
+    }
+
+    .social {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-top: 125px;
+    }
+
+    .social img {
+        height: 50px;
+        align-self: center;
+        
+    }
+    
+    .item2 {
+        list-style: none;
+        line-height: 40px;
+    }
+
+    .item2 li a {
+        text-decoration: none;
+    }
+
+    /* hover effekten for sociale medie knapper */
+
+    /*facebook*/
+    .facebook {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .facebook .facebook-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .facebook:hover .facebook-hover {
+        display: inline;
+    }
+
+    /*instagram*/
+    .instagram {
+        position: relative;
+        display: inline-block;
+    }
+    .instagram .instagram-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .instagram:hover .instagram-hover {
+        display: inline;
+    }
+
+    /*linkedin*/
+    .linkedin {
+        position: relative;
+        display: inline-block;
+    }
+    .linkedin .linkedin-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .linkedin:hover .linkedin-hover {
+        display: inline;
+    }
+
+    /*youtube*/
+    .youtube {
+        position: relative;
+        display: inline-block;
+    }
+    .youtube .youtube-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .youtube:hover .youtube-hover {
+        display: inline;
+    }
+}
+
+/* rammen for footeren på pc */
+@media only screen and (min-width: 960px) {
+    .wrapper-footer {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+    .social {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-top: 125px;
+    }
+
+    .social img {
+        height: 50px;
+        align-self: center;
+        
+    }
+    
+    .item2 {
+        list-style: none;
+        line-height: 40px;
+    }
+
+    .item2 li a {
+        text-decoration: none;
+    }
+
+    /* hover effekten for sociale medie knapper */
+
+    /*facebook*/
+    .facebook {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .facebook .facebook-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .facebook:hover .facebook-hover {
+        display: inline;
+    }
+
+    /*instagram*/
+    .instagram {
+        position: relative;
+        display: inline-block;
+    }
+    .instagram .instagram-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .instagram:hover .instagram-hover {
+        display: inline;
+    }
+
+    /*linkedin*/
+    .linkedin {
+        position: relative;
+        display: inline-block;
+    }
+    .linkedin .linkedin-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .linkedin:hover .linkedin-hover {
+        display: inline;
+    }
+
+    /*youtube*/
+    .youtube {
+        position: relative;
+        display: inline-block;
+    }
+    .youtube .youtube-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .youtube:hover .youtube-hover {
+        display: inline;
+    }
+}

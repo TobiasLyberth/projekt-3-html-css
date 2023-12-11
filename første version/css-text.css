@@ -1,0 +1,12 @@
+/* CSS med fokus på tekst */
+
+h2 {
+    font-size: large;
+    color: #04839c;
+    text-align: center;
+}
+
+h2:hover {
+    color: #8abfbe;
+    text-decoration: underline;
+}
