@@ -187,6 +187,11 @@
 
     .portføjle-billeder1 li img {
         width: 250px;
+        border: 5px solid #04839c;
+    }
+
+    .portføjle-billeder1 li video {
+        border: 5px solid #04839c;
     }
 
     .portføjle-billeder2 {
@@ -204,5 +209,14 @@
 
     .portføjle-billeder2 li img {
         width: 250px;
+        border: 5px solid #04839c;
+    }
+
+    .portføjle-billeder2 li video {
+        border: 5px solid #04839c;
+    }
+
+    .portføjle-videoer1 li {
+        list-style: none;
     }
 }
