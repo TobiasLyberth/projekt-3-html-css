@@ -15,6 +15,48 @@ h1 {
     margin-top: 25px;
     text-align: center;
     position: static;
+    text-decoration: underline;
+}
+
+hr {
+    height: 5px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #04839c;
+
+}
+
+.beskrivelse-kp {
+    padding: 80px;
+}
+
+.beskrivelse-kp p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.beskrivelse-adobe {
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.beskrivelse-adobe p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.portføjle-billeder1 li p {
+    text-align: center;
+}
+
+.portføjle-billeder2 li p {
+    text-align: center;
+}
+
+.title1 {
+    padding-top: 20px;
 }
 
 h3 {

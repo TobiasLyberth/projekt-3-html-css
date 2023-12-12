@@ -60,6 +60,13 @@ body {
         background-color: rgb(255, 255, 255);
     }
 
+    .wrapper-portføjle {
+        margin: 0 auto;
+        width: 1000px;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+
     .bundbillede {
         width: fit-content;
         height: 100%;

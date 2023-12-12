@@ -100,12 +100,10 @@
      /* Footer når den er på iphone */
  .footer1 {
     position: static;
-    left: 0;
-    right: 0;
-    bottom: 0;
     width: 100%;
     height: 200px;
     background-color: #04839c;
+    overflow: hidden;
 }
 
 .footer1-flex {
@@ -124,6 +122,7 @@
         background-color: #c2e3e5;
         margin-top: -100px;
         position: fixed;
+        z-index: 99;
     }
 
     .header1 {
@@ -134,6 +133,7 @@
         justify-content: space-between;
         position: fixed;
         margin-top: -100px;
+        z-index: 99;
     }
     
     .header1:hover {
@@ -172,4 +172,37 @@
         line-height: 100px;
     }
 
+    .portføjle-billeder1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        transform: skewy(5deg);
+        padding: 50px;
+        margin-top: 50px;
+    }
+
+    .portføjle-billeder1 li {
+        list-style: none;
+    }
+
+    .portføjle-billeder1 li img {
+        width: 250px;
+    }
+
+    .portføjle-billeder2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        transform: skewy(-5deg);
+        padding: 50px;
+        margin-bottom: 50px;
+    }
+
+    .portføjle-billeder2 li {
+        list-style: none;
+    }
+
+    .portføjle-billeder2 li img {
+        width: 250px;
+    }
 }
