@@ -24,7 +24,36 @@ hr {
     margin-left: auto;
     margin-right: auto;
     background-color: #04839c;
+}
 
+.hr2 {
+    margin-top: 60px;
+}
+
+h4 {
+    font-size: 45px;
+    margin-left: 435px;
+    margin-top: -550px;
+}
+.udannelse {
+    font-size: 30px;
+    margin-left: 435px;
+    text-decoration: underline;
+}
+
+.hvemerjeg {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 435px;
+    text-decoration: underline;
+}
+
+.mig1 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 435px;
+    padding-right: 30px;
+    line-height: 22px;
 }
 
 .beskrivelse-kp {
@@ -93,6 +122,7 @@ h3 {
     }
 
     h1 {
+        font-size: 50px;
         margin-top: 100px;
         text-align: center;
         position: static;

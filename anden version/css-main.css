@@ -56,8 +56,15 @@ body {
     .wrapper {
         margin: 0 auto;
         width: 1000px;
-        height: 100vh;
+        height: 100%;
         background-color: rgb(255, 255, 255);
+    }
+
+    .pbfoto img {
+        width: 50%;
+        margin-top: 35px;
+        margin-left: -100px;
+        border: 5px solid #04839c;
     }
 
     .wrapper-portføjle {
@@ -76,6 +83,17 @@ body {
 
     .bundbillede img {
         width: 1000px;        
+    }
+
+    .ishav {
+        width: fit-content;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ishav img {
+        width: 1000px;
     }
 }
 

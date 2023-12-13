@@ -38,7 +38,7 @@
 .nav li a {
     display: block;
     text-decoration: none;
-    padding: 0 10;
+    padding: 1px 10px;
     line-height: 80px;
 }
 
@@ -93,11 +93,11 @@
     .nav li a {
         display: block;
         text-decoration: none;
-        padding: 0 10px;
+        padding: 1px 10px;
         line-height: 100px;
     }
 
-     /* Footer når den er på iphone */
+     /* Footer når den er på ipad */
  .footer1 {
     position: static;
     width: 100%;
@@ -168,7 +168,7 @@
     .nav li a {
         display: block;
         text-decoration: none;
-        padding: 0 10px;
+        padding: 1px 10px;
         line-height: 100px;
     }
 
