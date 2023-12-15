@@ -51,7 +51,7 @@ body {
 }
 
 .nav li a h2 {
-    font-size: 16px;
+    font-size: 14px;
     color: #000000;
     font-family: arial;
 }
@@ -66,7 +66,7 @@ body {
 /*Wrapper*/
 .wrapper {
     margin: 0 auto;
-    width: 400px;
+    width: 350px;
     min-height: 50vh;
     background-color: rgb(255, 255, 255);
 }
@@ -138,7 +138,7 @@ body {
 }
 
 .ishav img {
-    width: 400px;
+    width: 350px;
 }
 
 
@@ -160,7 +160,7 @@ body {
 
 .wrapper-footer {
     margin: 0 auto;
-    width: 400px;
+    width: 300px;
 }
 
 .social {
@@ -199,7 +199,7 @@ body {
 .facebook {
     position: relative;
     display: inline-block;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .facebook .facebook-hover {
@@ -211,14 +211,14 @@ body {
 
 .facebook:hover .facebook-hover {
     display: inline;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 /*instagram*/
 .instagram {
     position: relative;
     display: inline-block;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .instagram .instagram-hover {
@@ -230,14 +230,14 @@ body {
 
 .instagram:hover .instagram-hover {
     display: inline;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 /*linkedin*/
 .linkedin {
     position: relative;
     display: inline-block;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .linkedin .linkedin-hover {
@@ -249,14 +249,14 @@ body {
 
 .linkedin:hover .linkedin-hover {
     display: inline;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 /*youtube*/
 .youtube {
     position: relative;
     display: inline-block;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .youtube .youtube-hover {
@@ -268,7 +268,7 @@ body {
 
 .youtube:hover .youtube-hover {
     display: inline;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 
@@ -352,7 +352,7 @@ button:hover {
 /*Komepenter & portføjle side*/
 .wrapper-portføjle {
     margin: 0 auto;
-    width: 400px;
+    width: 350px;
     height: 100%;
     background-color: rgb(255, 255, 255);
 }
@@ -404,11 +404,12 @@ button:hover {
 }
 
 .portføjle-billeder1 li img {
-    width: 300px;
+    width: 250px;
     border: 5px solid #04839c;
 }
 
 .portføjle-billeder1 li video {
+    width: 250px;
     border: 5px solid #04839c;
 }
 
@@ -434,11 +435,12 @@ button:hover {
 }
 
 .portføjle-billeder2 li img {
-    width: 300px;
+    width: 250px;
     border: 5px solid #04839c;
 }
 
 .portføjle-billeder2 li video {
+    width: 250px;
     border: 5px solid #04839c;
 }
 
@@ -514,7 +516,7 @@ button:hover {
 }
 
 .bundbillede img {
-    width: 400px;
+    width: 350px;
 }
 
 
