@@ -463,7 +463,6 @@ button:hover {
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 20px;
 }
 
 .portføjle-videoer1 li video {
@@ -475,6 +474,24 @@ button:hover {
     padding-bottom: 10px;
 }
 
+.youtube-video {
+    padding-left: 20px;
+    padding-right: 28px;
+}
+
+.øl {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #04839c;
+  }
+
+  .fuck {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #04839c;
+  }
 /*Slutning af koden for billeder og videoer*/
 
 
@@ -729,4 +746,72 @@ button:hover {
         grid-gap: 30px;
     }
 
+    .kontakt-info {
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+
+    button {
+        margin-left: 36%;
+    }
+
+
+
+    /*PC version af kompetencer og portføjle side*/
+    .wrapper-portføjle {
+        width: 1000px;
+    }
+
+    .wrapper-portføjle .kp-beskrivelse {
+        padding: 50px
+
+    }
+
+    .wrapper-portføjle hr {
+        margin-top: 20px;
+        height: 5px;
+        width: 400px;
+    }
+
+    .portføjle-billeder1 {
+        flex-direction: row;
+        transform: skewy(5deg);
+        padding: 50px;
+        margin-top: 50px;
+    }
+
+    .portføjle-billeder1 li img {
+        width: 250px;
+    }
+
+    .portføjle-billeder1 li video {
+        width: 250px;
+    }
+
+    .portføjle-billeder2 {
+        flex-direction: row;
+        transform: skewy(-5deg);
+        padding: 50px;
+        margin-top: -20px;
+    }
+
+    .portføjle-billeder2 li img {
+        width: 250px;
+    }
+
+    .portføjle-billeder2 li video {
+        width: 250px;
+    }
+
+    .wrapper-portføjle .portføjle-videoer-beskrivelse {
+        padding: 50px
+    }
+
+    .wrapper-portføjle .beskrivelse-adobe {
+        padding: 50px
+    }
+
+    .bundbillede img {
+        width: 1000px;
+    }
 }
