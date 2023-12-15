@@ -1,0 +1,817 @@
+/*Body*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c2e3e5;
+}
+
+
+
+/*Header*/
+.header1 {
+    width: 100%;
+    height: 80px;
+    background-color: #04839c;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.logo {
+    width: fit-content;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+    align-self: center;
+}
+
+.nav {
+    width: fit-content;
+    height: 100%;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 10px;
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 1px 10px;
+    line-height: 80px;
+}
+
+.nav li a h2 {
+    font-size: 16px;
+    color: #000000;
+    font-family: arial;
+}
+
+.nav li a h2:hover {
+    color: #8abfbe;
+    text-decoration: underline;
+}
+
+
+
+/*Wrapper*/
+.wrapper {
+    margin: 0 auto;
+    width: 400px;
+    min-height: 50vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper h1 {
+    padding-top: 20px;
+    text-align: center;
+    position: static;
+    text-decoration: underline;
+}
+
+.pbfoto img {
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 5px solid #04839c;
+}
+
+.wrapper h4 {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.wrapper .udannelse {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.wrapper .hvemerjeg {
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+.mig1 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 22px;
+}
+
+.wrapper hr {
+    height: 3px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #04839c;
+}
+
+.wrapper .hvemerjeg2 {
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.wrapper .ishav {
+    width: fit-content;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ishav img {
+    width: 400px;
+}
+
+
+
+/*Footer*/
+.footer1 {
+    position: static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 280px;
+    background-color: #04839c;
+}
+
+.footer1-flex {
+    display: flex;
+}
+
+.wrapper-footer {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.social img {
+    height: 50px;
+    align-self: center;
+
+}
+
+.item2 {
+    list-style: none;
+    line-height: 40px;
+}
+
+.item2 li a {
+    text-decoration: none;
+}
+
+.item2 h3 {
+    font-size: 18px;
+    color: #000;
+}
+
+.adresse:hover {
+    color: #8abfbe;
+    text-decoration: underline;
+}
+
+/*facebook*/
+.facebook {
+    position: relative;
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.facebook .facebook-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.facebook:hover .facebook-hover {
+    display: inline;
+    padding-left: 100px;
+}
+
+/*instagram*/
+.instagram {
+    position: relative;
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.instagram .instagram-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.instagram:hover .instagram-hover {
+    display: inline;
+    padding-left: 100px;
+}
+
+/*linkedin*/
+.linkedin {
+    position: relative;
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.linkedin .linkedin-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.linkedin:hover .linkedin-hover {
+    display: inline;
+    padding-left: 100px;
+}
+
+/*youtube*/
+.youtube {
+    position: relative;
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.youtube .youtube-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.youtube:hover .youtube-hover {
+    display: inline;
+    padding-left: 100px;
+}
+
+
+
+/*Kontakt side*/
+.kontakt {
+    padding: 50px;
+    text-align: center;
+}
+
+.kontakt-box {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.kontakt-wrapper {
+    grid-template-columns: 1fr;
+}
+
+.kontakt-form {
+    text-align: left;
+}
+
+.kontakt-form h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.form-gruppe {
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #c2e3e5;
+    color: #333;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c2e3e5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 30%;
+}
+
+button:hover {
+    background-color: #04839c;
+}
+
+.kontakt-info {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.kontakt-info h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.kontakt-info p {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+
+
+/*Komepenter & portføjle side*/
+.wrapper-portføjle {
+    margin: 0 auto;
+    width: 400px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper-portføjle h1 {
+    padding-top: 20px;
+    text-align: center;
+    position: static;
+    text-decoration: underline;
+}
+
+.wrapper-portføjle .kp-beskrivelse {
+    padding-top: 10px;
+}
+
+.wrapper-portføjle .kp1 {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.wrapper-portføjle hr {
+    height: 3px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #04839c;
+}
+
+
+
+/*Første række billeder & videoer*/
+.portføjle-billeder1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+}
+
+.portføjle-billeder1 li {
+    list-style: none;
+}
+
+.portføjle-billeder1 li img {
+    width: 300px;
+    border: 5px solid #04839c;
+}
+
+.portføjle-billeder1 li video {
+    border: 5px solid #04839c;
+}
+
+.portføjle-billeder1 li p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+
+/*Anden række billeder*/
+.portføjle-billeder2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+}
+
+.portføjle-billeder2 li {
+    list-style: none;
+}
+
+.portføjle-billeder2 li img {
+    width: 300px;
+    border: 5px solid #04839c;
+}
+
+.portføjle-billeder2 li video {
+    border: 5px solid #04839c;
+}
+
+.portføjle-billeder2 li p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+
+/*Række af videoer*/
+.wrapper-portføjle .kp2 {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.portføjle-videoer1 li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.portføjle-videoer1 li video {
+    border: 5px solid #04839c;
+}
+
+.portføjle-videoer1 li p {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.youtube-video {
+    padding-left: 20px;
+    padding-right: 28px;
+}
+
+.øl {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #04839c;
+  }
+
+  .fuck {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #04839c;
+  }
+/*Slutning af koden for billeder og videoer*/
+
+
+
+/*Wrapper for kempetencer & portføjle*/
+.wrapper-portføjle .kp3 {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.bundbillede {
+    width: fit-content;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bundbillede img {
+    width: 400px;
+}
+
+
+
+/*PC version af style*/
+@media only screen and (min-width: 960px) {
+
+    /*Koden for animationen af header*/
+    .box1 {
+        width: 100%;
+        height: 100px;
+        background-color: #c2e3e5;
+        margin-top: -100px;
+        position: fixed;
+        z-index: 99;
+    }
+
+    .header1 {
+        width: 100%;
+        height: 0px;
+        background-color: #04839c;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        margin-top: -100px;
+        transition-property: height;
+        transition-duration: 0.5s;
+        transition-delay: 0.2s;
+        z-index: 99;
+    }
+
+    .header1:hover {
+        width: 100%;
+        height: 100px;
+    }
+
+
+    .logo {
+        width: fit-content;
+        height: 100%;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .logo img {
+        height: 90px;
+        align-self: center;
+    }
+
+    .nav {
+        width: fit-content;
+        height: 100%;
+    }
+
+    .nav li {
+        list-style: none;
+        margin-right: 20px;
+        float: left;
+    }
+
+    .nav li a {
+        display: block;
+        text-decoration: none;
+        padding: 1px 10px;
+        line-height: 100px;
+    }
+
+    /*Slutningen på header animations koden*/
+
+
+
+    /*PC versionen af wrapperen*/
+    .nav li a h2 {
+        font-size: 24px;
+    }
+
+    .wrapper {
+        margin-top: 100px;
+        width: 1000px;
+    }
+
+    .wrapper-portføjle {
+        margin-top: 100px;
+        width: 1000px;
+    }
+
+    .wrapper h1 {
+        font-size: 46px;
+    }
+
+    .wrapper-portføjle h1 {
+        font-size: 46px;
+    }
+
+    .pbfoto img {
+        width: 50%;
+        margin-top: 35px;
+        margin-left: -100px;
+    }
+
+    .wrapper h4 {
+        font-size: 45px;
+        padding: 0;
+        margin-left: 435px;
+        margin-top: -550px;
+    }
+
+    .wrapper .udannelse {
+        font-size: 30px;
+        padding: 0;
+        margin-left: 435px;
+        text-decoration: underline;
+    }
+
+    .wrapper .hvemerjeg {
+        font-size: 22px;
+        padding: 0;
+        margin-top: 30px;
+        margin-left: 435px;
+        text-decoration: underline;
+    }
+
+    .mig1 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 435px;
+        padding: 0;
+        padding-right: 30px;
+        line-height: 22px;
+    }
+
+    .wrapper hr {
+        margin-top: 60px;
+        height: 5px;
+        width: 400px;
+    }
+
+    .wrapper .hvemerjeg2 {
+        font-size: 22px;
+        margin-top: 30px;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .billedermig {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: 200px;
+    }
+
+    .column {
+        flex: 20%;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .column img {
+        width: 100%;
+    }
+
+    .ishav img {
+        width: 1000px;
+    }
+
+
+
+    /*PC versionen af footer*/
+    .footer1 {
+        height: 200px;
+    }
+
+
+    .wrapper-footer {
+        width: 1000px;
+    }
+
+    .social {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-top: 125px;
+    }
+
+    /*facebook*/
+    .facebook {
+        padding: 0;
+    }
+
+    .facebook:hover .facebook-hover {
+        padding: 0;
+    }
+
+    /*instagram*/
+    .instagram {
+        padding: 0;
+    }
+
+    .instagram:hover .instagram-hover {
+        padding: 0;
+    }
+
+    /*linkedin*/
+    .linkedin {
+        padding: 0;
+    }
+
+    .linkedin:hover .linkedin-hover {
+        padding: 0;
+    }
+
+    /*youtube*/
+    .youtube {
+        padding: 0;
+    }
+
+    .youtube:hover .youtube-hover {
+        padding: 0;
+    }
+
+
+
+    /*PC versionen af kontakt siden*/
+    .kontakt-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+
+    .kontakt-info {
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+
+    button {
+        margin-left: 36%;
+    }
+
+
+
+    /*PC version af kompetencer og portføjle side*/
+    .wrapper-portføjle {
+        width: 1000px;
+    }
+
+    .wrapper-portføjle .kp-beskrivelse {
+        padding: 50px
+
+    }
+
+    .wrapper-portføjle hr {
+        margin-top: 20px;
+        height: 5px;
+        width: 400px;
+    }
+
+    .portføjle-billeder1 {
+        flex-direction: row;
+        transform: skewy(5deg);
+        padding: 50px;
+        margin-top: 50px;
+    }
+
+    .portføjle-billeder1 li img {
+        width: 250px;
+    }
+
+    .portføjle-billeder1 li video {
+        width: 250px;
+    }
+
+    .portføjle-billeder2 {
+        flex-direction: row;
+        transform: skewy(-5deg);
+        padding: 50px;
+        margin-top: -20px;
+    }
+
+    .portføjle-billeder2 li img {
+        width: 250px;
+    }
+
+    .portføjle-billeder2 li video {
+        width: 250px;
+    }
+
+    .wrapper-portføjle .portføjle-videoer-beskrivelse {
+        padding: 50px
+    }
+
+    .wrapper-portføjle .beskrivelse-adobe {
+        padding: 50px
+    }
+
+    .bundbillede img {
+        width: 1000px;
+    }
+}
